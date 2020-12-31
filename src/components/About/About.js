@@ -20,7 +20,7 @@ Mərkəzin nəzdində Ümumi texniki fənlər və Humanitar fənlər kafedralar�
 Azərbaycan Respublikası Nazirlər Kabinetinin 24 fevral 1994-cü il tarixli 81 saylı qərarı ilə Milli Aviasiya Mərkəzi Milli Aviasiya Akademiyası adlandırıldı.</p>
     </div>
     <div className="col-12 col-md-6">
-    <img src="https://aviateka.su/wp-content/uploads/2018/03/naa-az-1024x709.jpg" width="300px" />
+    <img src="https://aviateka.su/wp-content/uploads/2018/03/naa-az-1024x709.jpg" alt="photo-1" width="300px" />
     </div>
 </div>
 <div className="row">

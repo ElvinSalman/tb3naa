@@ -19,16 +19,16 @@ const startupScreen = (
       style={{height:500,width:1000}}
     >
       <div>
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/0f04219733119.58ac100bb5b2c.jpg" />
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/0f04219733119.58ac100bb5b2c.jpg" alt="slide-1" />
       </div>
       <div>
-      <img src="http://авиару.рф/wp-content/uploads/2017/06/2.Dvigatel-TV7-117VM-v-ekspozitsii-HeliRussia-2012..jpg" />
+      <img src="http://авиару.рф/wp-content/uploads/2017/06/2.Dvigatel-TV7-117VM-v-ekspozitsii-HeliRussia-2012..jpg" alt="slide-2"  />
       </div>
       <div>
-      <img src="https://avatars.mds.yandex.net/get-zen_doc/3769427/pub_5f344dcec3fdab1d4b165e20_5f3454cbd7ec294f525db334/scale_1200" />
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/3769427/pub_5f344dcec3fdab1d4b165e20_5f3454cbd7ec294f525db334/scale_1200" alt="slide-3" />
       </div>
       <div>
-      <img src="  https://avatars.mds.yandex.net/get-zen_doc/1222191/pub_5cfb7ceb7e0d5200ae512dba_5cfbb8bd92015300af0c1e1d/scale_1200" />
+      <img src="  https://avatars.mds.yandex.net/get-zen_doc/1222191/pub_5cfb7ceb7e0d5200ae512dba_5cfbb8bd92015300af0c1e1d/scale_1200" alt="slide-4" />
       </div>
     </AwesomeSlider>
   );
@@ -73,7 +73,7 @@ yenits, heyvandarlıq üçün işlənmiş qazların Jet qurudulması üçün
                 Hazırda zavod bütün modifikasiyalarda TV3-117 mühərriklərinin əsaslı və lokal təmirini mənimsəmiş, bu mühərriklərin əsaslı təmiri üzrə Rusiyada baş müəssisədir, həmçinin mühərriklərin təmirini həyata keçirir.
                 mühərriklərin istismarını saxlamaq və resurslarını uzatmaq üçün havayollarının qazları.</p>
                 <div className="col-12 d-flex justify-content-center">
-                <img src="http://www.airwar.ru/image/i/engines/tv3-117bma.jpg" />
+                <img src="http://www.airwar.ru/image/i/engines/tv3-117bma.jpg" alt="photo-1" />
                 </div>
                 <div className="col-12 d-flex justify-content-center">
                 <p>
