@@ -6,9 +6,12 @@ margin-bottom: 40px;
 }
 @media screen and (max-width:1000px){
     .span-ham{
-        display: block;
-        width: 100%;
-        margin-top: 15px;
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 28px;
+        /* margin-top: -5%;
+        margin-left: 40%; */
     }
     .ham{
         margin:0 auto;
@@ -16,7 +19,7 @@ margin-bottom: 40px;
     }
     .ul{
         width: 100%;
-        margin-top: 20px;
+        margin-top: 50px;
     }
     li{
         text-align: center;
@@ -24,13 +27,26 @@ margin-bottom: 40px;
         background-color: white;
         margin: 5px auto;
     }
+    li:hover a{
+        color: #fff !important;
+
+    }
+    
     li:hover{
-        background-color: thistle;
+        
+        background-color: rgb(46, 46, 216);
     }
     .animation{
         width: 100%;
         overflow: hidden;
     }
+ 
+   .img{
+       position: absolute;
+       left: 20px;
+       top: 20px;
+   }
+    
 }
 .headMain{
     margin-bottom:0 !important ;

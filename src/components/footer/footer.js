@@ -6,7 +6,7 @@ import socData from "../../data/socialPage.json";
         return (
           
         <div className='navbar-nav navbar navbar-expand-lg navbar-darg bg-dark text-white mb-3 p-3 footMain'>
-           <div className="col-md-4 col-4 soc">
+           <div className="col-md-4 col-12 soc">
            <a href={socData.facebook} target="_blank" className="btn-face m-b-20">
               <i className="fab fa-facebook-f"/>
             </a>
@@ -17,7 +17,7 @@ import socData from "../../data/socialPage.json";
               <i className="fab fa-instagram"/>
             </a>
             </div>
-           <div className="col-md-8 col-8 cred">
+           <div className="col-md-8 col-12 cred">
             Created by : Salmanov Elvin 1457R
            </div>
 

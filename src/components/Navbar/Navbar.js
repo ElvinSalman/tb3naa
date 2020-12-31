@@ -29,7 +29,7 @@ export default class Navbar extends Component {
         return (
             <nav className='navbar-nav navbar navbar-expand-lg navbar-darg bg-light mb-3 p-3 headMain'>
             <Link to='/' className='navbar-brand'>
-                <img src="https://naa.az/wp-content/uploads/26637838_1503945446356288_1034795990_n.png" width="200px" alt="Logo"/>
+                <img className="img" src="https://naa.az/wp-content/uploads/26637838_1503945446356288_1034795990_n.png" width="200px" alt="Logo"/>
             </Link>
 
             <span  className='span-ham'>
@@ -41,7 +41,7 @@ export default class Navbar extends Component {
             height={25}
             strokeWidth={3}
             rotate={0}
-            color='white'
+            color='black'
             borderRadius={0}
             animationDuration={0.5}
             />
