@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 
 import tb from "../../data/tb3Info.json"
+
 export default class Info extends Component {
     render() {
         return (

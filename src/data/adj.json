@@ -1,0 +1,14 @@
+[
+    { "title": "Sistemin ümumi xarakteristikası", "to": "/info/adj", "type": "simple" },
+    { "title": "Yanacağın forsunkalara yolu", "to": "", "type": "simple" },
+    { "title": "Əsas dozalaşdırıcı iynə", "to": "/", "type": "simple" },
+    { "title": "Turbokompressorun firlanma tezliyi tənzimləyicisi", "to": "/", "type": "simple" },
+    { "title": "Sərbəst turbinin firlanma tezliyi tənzimləyicisi", "to": "/", "type": "simple" },
+    { "title": "Tənzimləyicilərin birgə işi", "to": "/", "type": "simple" },
+    { "title": "Tez uyğunlaşma avtomatı", "to": "/", "type": "simple" },
+    { "title": "Güc sinxronizatoru", "to": "/", "type": "simple" },
+    { "title": "Mühərrikin temperaturun tənzimləyicisi", "to": "/", "type": "simple" },
+    { "title": "Mühərrikin elektron tənzimləyicisi ЭРД-3ВМ", "to": "/", "type": "simple" }
+
+
+  ]

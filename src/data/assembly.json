@@ -1,0 +1,11 @@
+[
+    { "title": "Kompressor", "to": "/info/assembly", "type": "simple" },
+    { "title": "Yanma kamerası", "to": "", "type": "simple" },
+    { "title": "Kompressorun turbini", "to": "/", "type": "simple" },
+    { "title": "Sərbəst turbin", "to": "/", "type": "simple" },
+    { "title": "Xaric olma qurğusu", "to": "/", "type": "simple" },
+    { "title": "Sərbəst turbinin firlanma tezliyi tənzimləyicisinin intiqalı", "to": "/", "type": "simple" },
+    { "title": "İntiqal qutusu", "to": "/", "type": "simple" },
+    { "title": "Hava starteri СВ-78БА", "to": "/", "type": "simple" }
+
+  ]

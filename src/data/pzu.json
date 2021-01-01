@@ -1,0 +1,6 @@
+[
+    { "title": "Təyinat və əsas məlumatlar", "to": "/info/pzu", "type": "simple" },
+    { "title": "Əsas elementlər", "to": "", "type": "simple" },
+    { "title": "İş prinsipi", "to": "/", "type": "simple" },
+    { "title": "İstismar qaydaları", "to": "/", "type": "simple" }
+  ]

@@ -1,0 +1,8 @@
+[
+    { "title": "Ümumi xarakteristikası", "to": "/info/oil", "type": "simple" },
+    { "title": "Sistemin əsas elementləri", "to": "", "type": "simple" },
+    { "title": "Sistemin işi", "to": "/", "type": "simple" },
+    { "title": "Sistemin işinə nəzarət", "to": "/", "type": "simple" },
+    { "title": "Sistemin mümkün nasazlıqları", "to": "/", "type": "simple" }
+
+  ]
