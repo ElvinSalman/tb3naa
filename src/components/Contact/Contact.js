@@ -7,7 +7,7 @@ import "./Contact.css";
         return (
         
 <>
-<div className="container list-group" style={{marginTop:50,marginBottom:200}}>
+<div className="container list-group" style={{marginTop:50,marginBottom:60}}>
                 <div className="row d-flex justify-content-center" style={{marginBottom:30}}>
 <div className="col-12 col-md-12 text-center">
     <h2>NAA əlaqə</h2>
