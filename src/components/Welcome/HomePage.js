@@ -3,7 +3,7 @@ import "./welcome.css"
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
-
+import Slides from "../../data/slider.json"
 
 const startupScreen = (
     <div style={{color:"#fff",fontSize:40}}>
@@ -19,18 +19,14 @@ const startupScreen = (
       className="slider"
       style={{height:500,width:1000}}
     >
-      <div>
-      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/0f04219733119.58ac100bb5b2c.jpg" className="slider-img" alt="slide-1" />
-      </div>
-      <div>
-      <img src="http://авиару.рф/wp-content/uploads/2017/06/2.Dvigatel-TV7-117VM-v-ekspozitsii-HeliRussia-2012..jpg" className="slider-img" alt="slide-2"  />
-      </div>
-      <div>
-      <img src="https://avatars.mds.yandex.net/get-zen_doc/3769427/pub_5f344dcec3fdab1d4b165e20_5f3454cbd7ec294f525db334/scale_1200" className="slider-img" alt="slide-3" />
-      </div>
-      <div>
-      <img src="  https://avatars.mds.yandex.net/get-zen_doc/1222191/pub_5cfb7ceb7e0d5200ae512dba_5cfbb8bd92015300af0c1e1d/scale_1200" className="slider-img" alt="slide-4" />
-      </div>
+
+{Slides.map((item,index)=>(
+      <div key={index}>
+      <img src={item.url} className="slider-img" alt={item.alt} />
+      </div>          
+                ))}
+
+
     </AwesomeSlider>
   );
 
