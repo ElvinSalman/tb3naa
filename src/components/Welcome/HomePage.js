@@ -6,8 +6,8 @@ import 'react-awesome-slider/dist/styles.css';
 import Slides from "../../data/slider.json"
 
 const startupScreen = (
-    <div style={{color:"#fff",fontSize:40}}>
-        ТВ3-117
+    <div style={{color:"#fff",fontSize:40,backgroundColor:"black"}}>
+        Salmanov Elvin
       {/* <img src="/path/to/image-loader.png" /> */}
     </div>
   );
