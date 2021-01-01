@@ -20,7 +20,7 @@ Mərkəzin nəzdində Ümumi texniki fənlər və Humanitar fənlər kafedralar�
 Azərbaycan Respublikası Nazirlər Kabinetinin 24 fevral 1994-cü il tarixli 81 saylı qərarı ilə Milli Aviasiya Mərkəzi Milli Aviasiya Akademiyası adlandırıldı.</p>
     </div>
     <div className="col-12 col-md-6">
-    <img src="https://aviateka.su/wp-content/uploads/2018/03/naa-az-1024x709.jpg" alt="photo-1" width="300px" />
+    <img src="https://aviateka.su/wp-content/uploads/2018/03/naa-az-1024x709.jpg" alt="photo-1" width="100%" />
     </div>
 </div>
 <div className="row">
@@ -72,17 +72,15 @@ Rəhbərlik
 <br/>
 <div className="col-12" style={{marginBottom:30}}>
 <p>
-Arif Paşayev-rektor
-<br/>
-Ədalət Səmədov-tədris işləri üzrə prorektor
-<br/>
-Afiq Həsənov-Elmi işlər üzrə prorektor
-<br/>
-Hacıağa Əliyev-uçuş işləri üzrə prorektor
-<br/>
-Şəmsəddin Axundov-ictimaiyyətlə əlaqə üzrə prorektor
-<br/>
-Rafiq Həsənov-Ümumi və təsərrüfat-texniki məsələlər üzrə prorektor
+    <ul>
+        <li>Arif Paşayev-rektor</li>
+        <li>Ədalət Səmədov-tədris işləri üzrə prorektor</li>
+        <li>Afiq Həsənov-Elmi işlər üzrə prorektor</li>
+        <li>Hacıağa Əliyev-uçuş işləri üzrə prorektor</li>
+        <li>Şəmsəddin Axundov-ictimaiyyətlə əlaqə üzrə prorektor</li>
+        <li>Rafiq Həsənov-Ümumi və təsərrüfat-texniki məsələlər üzrə prorektor</li>
+
+    </ul>
 </p>
 </div>
     </div>
