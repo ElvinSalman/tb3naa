@@ -71,7 +71,7 @@ Rəhbərlik
 </div>
 <br/>
 <div className="col-12" style={{marginBottom:30}}>
-<p>
+
     <ul>
         <li>Arif Paşayev-rektor</li>
         <li>Ədalət Səmədov-tədris işləri üzrə prorektor</li>
@@ -81,7 +81,7 @@ Rəhbərlik
         <li>Rafiq Həsənov-Ümumi və təsərrüfat-texniki məsələlər üzrə prorektor</li>
 
     </ul>
-</p>
+
 </div>
     </div>
 </div>
