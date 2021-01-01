@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import "./Contact.css";
 
  class Contact extends Component {
     render() {
@@ -27,15 +29,27 @@ import React, { Component } from 'react'
     Bakı ş., Mərdəkan prospekti 30
 </span>
 </div>
-{/* <div style={{marginTop:50,marginBottom:50}} className="col-12 col-md-12 text-center">
-    <h2>Saytı yazan tələbə haqqında məlumat</h2>
+<div style={{marginTop:50,marginBottom:50,position:"relative",height:400}} className="col-12 col-md-12 map text-center">
+    {/* <h2>Saytı yazan tələbə haqqında məlumat</h2> */}
+
+    <Map google={this.props.google}
+          initialCenter={{
+            lat: 40.45331,
+            lng: 50.06615
+          }}
+          zoom={13}
+          onClick={this.onMapClicked}>
+ 
+ <Marker onClick={this.onMarkerClick}
+         name={'Current location'} />
+</Map>
 </div>
         <div className="col-12 col-md-6">
             
         </div>
         <div className="col-12 col-md-6">
             
-        </div> */}
+        </div>
 </div>
      
 </div>
@@ -52,4 +66,7 @@ import React, { Component } from 'react'
 }
 
 
-export default Contact;
+
+export default GoogleApiWrapper({
+    apiKey: ("AIzaSyDkg_nYYS4xon_dgwADolYvtVSWaU6fNTw")
+  })(Contact)
