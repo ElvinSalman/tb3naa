@@ -1,8 +1,8 @@
 [
-    { "title": "Ümumi xarakteristikası", "to": "/info/oil", "type": "simple" },
-    { "title": "Sistemin əsas elementləri", "to": "", "type": "simple" },
-    { "title": "Sistemin işi", "to": "/", "type": "simple" },
-    { "title": "Sistemin işinə nəzarət", "to": "/", "type": "simple" },
-    { "title": "Sistemin mümkün nasazlıqları", "to": "/", "type": "simple" }
+    { "title": "Ümumi xarakteristikası", "to": "/info/oil/basicoil", "type": "simple" },
+    { "title": "Sistemin əsas elementləri", "to": "/info/oil/basicelements", "type": "simple" },
+    { "title": "Sistemin işi", "to": "/info/oil/worksystem", "type": "simple" },
+    { "title": "Sistemin işinə nəzarət", "to": "/info/oil/controloveroperation", "type": "simple" },
+    { "title": "Sistemin mümkün nasazlıqları", "to": "/info/oil/malfunctionsofthesystem", "type": "simple" }
 
   ]

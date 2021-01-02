@@ -1,11 +1,11 @@
 [
-    { "title": "Kompressor", "to": "/info/assembly", "type": "simple" },
-    { "title": "Yanma kamerası", "to": "", "type": "simple" },
-    { "title": "Kompressorun turbini", "to": "/", "type": "simple" },
-    { "title": "Sərbəst turbin", "to": "/", "type": "simple" },
-    { "title": "Xaric olma qurğusu", "to": "/", "type": "simple" },
-    { "title": "Sərbəst turbinin firlanma tezliyi tənzimləyicisinin intiqalı", "to": "/", "type": "simple" },
-    { "title": "İntiqal qutusu", "to": "/", "type": "simple" },
-    { "title": "Hava starteri СВ-78БА", "to": "/", "type": "simple" }
+    { "title": "Kompressor", "to": "/info/assembly/compressor", "type": "simple" },
+    { "title": "Yanma kamerası", "to": "/info/assembly/fire", "type": "simple" },
+    { "title": "Kompressorun turbini", "to": "/info/assembly/comprturb", "type": "simple" },
+    { "title": "Sərbəst turbin", "to": "/info/assembly/freeturb", "type": "simple" },
+    { "title": "Xaric olma qurğusu", "to": "/info/assembly/freed", "type": "simple" },
+    { "title": "Sərbəst turbinin firlanma tezliyi tənzimləyicisinin intiqalı", "to": "/info/assembly/revenge", "type": "simple" },
+    { "title": "İntiqal qutusu", "to": "/info/assembly/box", "type": "simple" },
+    { "title": "Hava starteri СВ-78БА", "to": "/info/assembly/airstarter", "type": "simple" }
 
   ]

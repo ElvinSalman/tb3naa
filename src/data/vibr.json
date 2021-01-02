@@ -1,6 +1,6 @@
 [
-    { "title": "Təyinat", "to": "/info/vibr", "type": "simple" },
-    { "title": "Tərkib və işi", "to": "", "type": "simple" },
-    { "title": "Sazlıq nəzarəti", "to": "/", "type": "simple" }
+    { "title": "Təyinat", "to": "/info/vibr/purpose", "type": "simple" },
+    { "title": "Tərkib və işi", "to": "/info/vibr/contentandwork", "type": "simple" },
+    { "title": "Sazlıq nəzarəti", "to": "/info/vibr/serviceability", "type": "simple" }
 
   ]

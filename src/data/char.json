@@ -1,6 +1,6 @@
 [
-    { "title": "Mühərrik haqqinda ümumi məlumatlar", "to": "/info/char", "type": "simple" },
-    { "title": "Mühərrikin texniki məlumatları", "to": "", "type": "simple" },
-    { "title": "İstismar məhdudiyyətləri", "to": "/", "type": "simple" },
-    { "title": "Mühərrikin xarakteristikası", "to": "/", "type": "simple" }
+    { "title": "Mühərrik haqqinda ümumi məlumatlar", "to": "/info/char/common", "type": "simple" },
+    { "title": "Mühərrikin texniki məlumatları", "to": "/info/char/tech", "type": "simple" },
+    { "title": "İstismar məhdudiyyətləri", "to": "/info/char/limit", "type": "simple" },
+    { "title": "Mühərrikin xarakteristikası", "to": "/info/char/engine", "type": "simple" }
   ]

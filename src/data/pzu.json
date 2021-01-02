@@ -1,6 +1,6 @@
 [
-    { "title": "Təyinat və əsas məlumatlar", "to": "/info/pzu", "type": "simple" },
-    { "title": "Əsas elementlər", "to": "", "type": "simple" },
-    { "title": "İş prinsipi", "to": "/", "type": "simple" },
-    { "title": "İstismar qaydaları", "to": "/", "type": "simple" }
+    { "title": "Təyinat və əsas məlumatlar", "to": "/info/pzu/appointmentandbasicinformation", "type": "simple" },
+    { "title": "Əsas elementlər", "to": "/info/pzu/basicelements", "type": "simple" },
+    { "title": "İş prinsipi", "to": "/info/pzu/work", "type": "simple" },
+    { "title": "İstismar qaydaları", "to": "/info/pzu/operatingrules", "type": "simple" }
   ]
