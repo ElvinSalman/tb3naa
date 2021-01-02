@@ -44,21 +44,21 @@ import "./Contact.css";
          name={'Current location'} />
 </Map>
 </div>
-        <div className="col-12 col-md-6">
+        {/* <div className="col-12 col-md-6">
             
         </div>
         <div className="col-12 col-md-6">
             
-        </div>
+        </div> */}
 </div>
      
 </div>
 
-<div className="container">
+{/* <div className="container">
     <div className="row">
     
     </div>
-</div> 
+</div>  */}
 </>
         
         )

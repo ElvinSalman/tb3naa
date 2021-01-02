@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+import Sli from "../Slider/Slider";
+import "./About.css"
 export default class Info extends Component {
     render() {
         return (
@@ -53,6 +54,15 @@ Azərbaycan Respublikasının Dövlət Mülki Aviasiya Administrasiyası (DMAA) 
 <br/>
 2012-ci ildə MAA Təhsil Nazirliyinin növbəti akkreditasiyasından keçdi və 089 saylı sertifikat verildi. Həmin ilin yanvar ayında MAA Avropa Mülki Aviasiya Konfransının (ECAC) təlim mərkəzləri şəbəkəsinə üzv qəbul edildi və bununla Akademiyada mütəxəssis hazırlığının beynəlxalq standartların tələblərinə uyğunluğu təsdiq edildi.
 <br/>
+</p>
+</div>
+
+<div className="col-12 slider" >
+    <Sli/>
+</div>
+
+<div className="col-12">
+<p>
 2012-ci il may ayının 30-da Milli Aviasiya Akademiyası “Təhlükəli yüklərin hava nəqliyyatı ilə daşınması” üzrə Beynəlxalq Hava Nəqliyyatı Assosiasiyasının (İATA) regional tədris mərkəzi statusunu aldı.
 <br/>
 2014-cü ilin sentyabr ayında MAA-da 2 yataqxana korpusu, futbol meydançası, tennis kortu, voleybol və basketbol meydançalarına malik tələbə şəhərciyi istifadəyə verildi.

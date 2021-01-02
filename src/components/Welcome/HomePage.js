@@ -1,34 +1,6 @@
 import React, { Component } from 'react'
+import Slider2 from '../Slider/Slider2'
 import "./welcome.css"
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-
-import Slides from "../../data/slider.json"
-
-const startupScreen = (
-    <div style={{color:"#fff",fontSize:40,backgroundColor:"black"}}>
-        Salmanov Elvin
-      {/* <img src="/path/to/image-loader.png" /> */}
-    </div>
-  );
-
-  const slider = (
-
-    <AwesomeSlider
-      startupScreen={startupScreen}
-      className="slider"
-      style={{height:500,width:1000}}
-    >
-
-{Slides.map((item,index)=>(
-      <div key={index}>
-      <img src={item.url} className="slider-img" alt={item.alt} />
-      </div>          
-                ))}
-
-
-    </AwesomeSlider>
-  );
 
 
   export default class WelcomePage extends Component {
@@ -42,8 +14,8 @@ render() {
             <div className="col-12" style={{textAlign:"center",margin:"30px 0"}}>
               <h1>TB3-117BM mühərrikə aid məlumat saytı. </h1>
             </div>
-                <div className="col-12 d-flex justify-content-center" style={{textAlign:"center",marginBottom:80}}>
-                   {slider}
+                <div className="col-12 d-flex justify-content-center" style={{textAlign:"center"}}>
+                   <Slider2/>
                 </div>
                 <div className="col-12">
                 <p>TV3-117 turboval mühərriki helikopterlərin quraşdırılması üçün nəzərdə tutulmuşdur. Bu əsas qovşaqlarının (kompressor səmərəliliyi 86%, turbin kom
@@ -58,6 +30,7 @@ render() {
                   cək döyüş vertolyotları üçün təcrübəli dəyişikliklər hazırlanır. Bəzi dəyişikliklər SSRİ və Rusi
                   yanın müxtəlif dövlət mükafatlarını aldı.
                 </p>
+                
                 <p>
                 TV3-117 dünyanın ən etibarlı mühərriklərindən biridir. Son 7 il ərzində heç bir mühərrik uçan uğursuzluq var idi!
 

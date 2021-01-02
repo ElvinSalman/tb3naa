@@ -5,6 +5,11 @@
 margin-bottom: 40px;
 }
 @media screen and (max-width:1000px){
+    nav{
+        position: sticky !important;
+        z-index: 11 !important;
+        top:0;
+    }
     .span-ham{
         display: flex;
         position: absolute;
