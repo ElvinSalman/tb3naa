@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+// import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import "./Contact.css";
 
  class Contact extends Component {
@@ -32,7 +32,7 @@ import "./Contact.css";
 <div style={{marginTop:50,marginBottom:50,position:"relative",height:400}} className="col-12 col-md-12 map text-center">
     {/* <h2>Saytı yazan tələbə haqqında məlumat</h2> */}
 
-    <Map google={this.props.google}
+    {/* <Map google={this.props.google}
           initialCenter={{
             lat: 40.45331,
             lng: 50.06615
@@ -42,7 +42,15 @@ import "./Contact.css";
  
  <Marker onClick={this.onMarkerClick}
          name={'Current location'} />
-</Map>
+</Map> */}
+<iframe
+              className="contact-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.9971856127218!2d50.06531561489584!3d40.453199261345524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030608b9a760659%3A0x782f42f85f9e39ef!2sNational%20Aviation%20Academy!5e0!3m2!1sru!2s!4v1609582023179!5m2!1sru!2s"
+              width="100%"
+              height="450"
+              frameBorder="0"
+              allowFullScreen
+            />
 </div>
         {/* <div className="col-12 col-md-6">
             
@@ -65,8 +73,8 @@ import "./Contact.css";
     }
 }
 
+export default Contact;
 
-
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyDkg_nYYS4xon_dgwADolYvtVSWaU6fNTw")
-  })(Contact)
+// export default GoogleApiWrapper({
+//     apiKey: ("AIzaSyDkg_nYYS4xon_dgwADolYvtVSWaU6fNTw")
+//   })(Contact)
