@@ -26,18 +26,18 @@ margin-bottom: 40px;
         width: 100%;
         margin-top: 50px;
     }
-    li{
+    .nav-item{
         text-align: center;
         width: 100%;
         background-color: white;
         margin: 5px auto;
     }
-    li:hover a{
+    .nav-item:hover a{
         color: #fff !important;
 
     }
     
-    li:hover{
+    .nav-item:hover{
         
         background-color: rgb(46, 46, 216);
     }

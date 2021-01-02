@@ -1,16 +1,20 @@
 import React, { Component } from 'react'
 import Sli from "../Slider/Slider";
-import "./About.css"
+import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
+
+
+import "./About.css";
 export default class Info extends Component {
     render() {
         return (
         
 <>
+<Breadcrumb title="Naa haqqında">
+        <BreadcrumbItem name="Ana səhifə" href="/" />
+        <BreadcrumbItem name="Naa haqqında" current />
+</Breadcrumb>
 <div className="container">
 <div className="row">
-    <div className="col-12" style={{textAlign:"center",marginBottom:30,marginTop:30}} >
-        <h2>Naa haqqında</h2>
-    </div>
     <div className="col-12 col-md-6">
     <p>
     Milli Aviasiya Akademiyası (MAA) — Azərbaycan Respublikasının dövlət ali təhsil müəssisəsidir və Azərbaycan Hava Yolları Qapalı Səhmdar Cəmiyyətinin (QSC) strukturuna daxildir. Milli Aviasiya Akademiyası Azərbaycanda mülki aviasiya sahəsində ali, əlavə və peşə-ixtisas təhsil proqramlarını həyata keçirən ali təhsil müəssisəsidir.

@@ -3,17 +3,17 @@ import {Link} from 'react-router-dom';
 
 import infoVibr from "../../data/vibr.json";
 
+import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
+
 export default class Vibr extends Component {
     render() {
         return (
-            <div className="container list-group" style={{marginTop:50,marginBottom:250}}>
-                <div className="row d-flex justify-content-center" style={{marginBottom:30}}>
-<div className="col-10 col-md-8 text-center">
-    <h2>ИВ-500 mühərrikin titrəmə nəzarəti sistemi</h2>
-</div>
-    
-</div>
-                
+            <>
+            <Breadcrumb title="ИВ-500 mühərrikin titrəmə nəzarəti sistemi">
+                    <BreadcrumbItem name="Ana səhifə" href="/" />
+                    <BreadcrumbItem name="ИВ-500 mühərrikin titrəmə nəzarəti sistemi" current />
+            </Breadcrumb>
+            <div className="container list-group" style={{marginTop:50,marginBottom:250}}>      
                 <div className="row d-flex justify-content-center">
                 <div className="col-10 col-md-6">
                 {infoVibr.map((item,index)=>(
@@ -22,7 +22,7 @@ export default class Vibr extends Component {
                 </div>
                 </div>
             </div>
-
+</>
         )
     }
 }

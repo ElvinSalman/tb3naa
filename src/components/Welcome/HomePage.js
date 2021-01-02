@@ -45,11 +45,11 @@ yenits, heyvandarlıq üçün işlənmiş qazların Jet qurudulması üçün
                 <div className="col-12 d-flex justify-content-center">
                 <img src="http://www.airwar.ru/image/i/engines/tv3-117bma.jpg" alt="photo-1" />
                 </div>
-                <div className="col-12 d-flex justify-content-center">
+                {/* <div className="col-12 d-flex justify-content-center">
                 <p>
                   
                 </p>
-                </div>
+                </div> */}
                 </div>
             </div>
         </div>

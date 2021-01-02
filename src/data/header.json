@@ -1,5 +1,6 @@
 [
-    { "title": "Naa haqqında", "to": "/about", "type": "simple" },
+    { "title": "Ana səhifə", "to": "/", "type": "simple" },
     { "title": "ТВ3-117 məlumat", "to": "/info", "type": "simple" },
+    { "title": "Naa haqqında", "to": "/about", "type": "simple" },
     { "title": "Əlaqə", "to": "/contact", "type": "simple" }
   ]

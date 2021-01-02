@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
 // import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import "./Contact.css";
+import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
 
  class Contact extends Component {
     render() {
         return (
         
 <>
+<Breadcrumb title="NAA əlaqə">
+        <BreadcrumbItem name="Ana səhifə" href="/" />
+        <BreadcrumbItem name="NAA əlaqə" current />
+</Breadcrumb>
+
 <div className="container list-group" style={{marginTop:50,marginBottom:60}}>
                 <div className="row d-flex justify-content-center" style={{marginBottom:30}}>
-<div className="col-12 col-md-12 text-center">
-    <h2>NAA əlaqə</h2>
-</div>
 <div className="col-12 col-md-12 text-center">
 <img src="https://upload.wikimedia.org/wikipedia/az/b/b5/MAA_yeni.jpg" width="70%" height="80%" alt="naa" />
 </div>
