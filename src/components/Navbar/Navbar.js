@@ -22,6 +22,12 @@ export default class Navbar extends Component {
             open: !this.state.open,
         });
     }
+
+    NavClick=()=>{
+        this.setState({
+            open: false,
+        });
+    }
     render() {
         const {open} = this.state
         // const {title} = this.props;
@@ -57,7 +63,7 @@ export default class Navbar extends Component {
             </ul> */}
             <ul className='navbar-nav ml-auto ul'>
                 {headerLinks.map((item,index)=>(
-                    <li className='nav-item active' key={index}>
+                    <li className='nav-item active' onClick={this.NavClick} key={index}>
                         <Link to={item.to} className='nav-link'>{item.title}</Link>
                     </li>
                 ))}
