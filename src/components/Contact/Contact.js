@@ -3,14 +3,18 @@ import React, { Component } from 'react'
 import "./Contact.css";
 import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
 
- class Contact extends Component {
-    render() {
+import { useTranslation } from 'react-i18next';
+
+ const Contact=()=> {
+
+  const { t, i18n } = useTranslation(['contact']);
+
         return (
         
 <>
-<Breadcrumb title="NAA əlaqə">
-        <BreadcrumbItem name="Ana səhifə" href="/" />
-        <BreadcrumbItem name="NAA əlaqə" current />
+<Breadcrumb title={t('title')}>
+        <BreadcrumbItem name={t('home')} href="/" />
+        <BreadcrumbItem name={t('title')} current />
 </Breadcrumb>
 
 <div className="container list-group" style={{marginTop:50,marginBottom:60}}>
@@ -29,7 +33,7 @@ import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
 <div className="col-12 col-md-4 text-center">
 <i className="fas fa-map-marker-alt" style={{marginRight:15,fontSize:20}}></i>
 <span style={{color: "#111",fontSize: "20px",fontWeight: "normal",lineHeight: "1.8571428571em"}}>
-    Bakı ş., Mərdəkan prospekti 30
+{t('adres')}
 </span>
 </div>
 <div style={{marginTop:50,marginBottom:50,position:"relative",height:400}} className="col-12 col-md-12 map text-center">
@@ -73,7 +77,7 @@ import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
 </>
         
         )
-    }
+    
 }
 
 export default Contact;

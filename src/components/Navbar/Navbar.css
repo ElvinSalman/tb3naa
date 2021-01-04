@@ -4,6 +4,16 @@
 .animation{
 margin-bottom: 40px;
 }
+.lang{
+    width: 100px !important;
+}
+.css-2b097c-container {
+    position: absolute !important;
+    width: 80px;
+    top: 20px;
+    box-sizing: border-box;
+    right: 25px;
+}
 @media screen and (max-width:1000px){
     nav{
         position: sticky !important;
@@ -17,6 +27,12 @@ margin-bottom: 40px;
         top: 28px;
         /* margin-top: -5%;
         margin-left: 40%; */
+    }
+    .css-2b097c-container {
+        position: absolute !important;
+        top: 21px !important;
+        box-sizing: border-box;
+        right: 70px !important;
     }
     .ham{
         margin:0 auto;

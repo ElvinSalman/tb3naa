@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
+import {BrowserRouter, BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import About from "./components/About/About";
 import Info from "./components/Info/Info";
@@ -55,9 +55,13 @@ import Synch from './components/Adj/Synch';
 import TempReg from './components/Adj/TempReg';
 import ElecReg from './components/Adj/ElecReg';
 
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { i18n } = useTranslation()
+
   return (
+    <BrowserRouter basename={i18n.language}>
     <Router>
     <div className="App">
     <Layout>
@@ -132,7 +136,7 @@ function App() {
     </div>
    
     </Router>
-    
+    </BrowserRouter>
   );
 }
 

@@ -1,6 +1,20 @@
-[
+{
+  "az":[
     { "title": "Ana səhifə", "to": "/", "type": "simple" },
     { "title": "ТВ3-117 məlumat", "to": "/info", "type": "simple" },
     { "title": "Naa haqqında", "to": "/about", "type": "simple" },
     { "title": "Əlaqə", "to": "/contact", "type": "simple" }
+  ],
+  "en":[
+    { "title": "Home", "to": "/", "type": "simple" },
+    { "title": "Information about ТВ3-117", "to": "/info", "type": "simple" },
+    { "title": " About Naa", "to": "/about", "type": "simple" },
+    { "title": "Contact", "to": "/contact", "type": "simple" }
+  ],
+  "ru":[
+    { "title": "Главная", "to": "/", "type": "simple" },
+    { "title": "Информация о ТВ3-117", "to": "/info", "type": "simple" },
+    { "title": "О Naa", "to": "/about", "type": "simple" },
+    { "title": "Контакты", "to": "/contact", "type": "simple" }
   ]
+}

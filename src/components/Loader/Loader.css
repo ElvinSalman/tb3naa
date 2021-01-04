@@ -1,3 +1,9 @@
+.loader-div{
+width: 100%;
+margin-top: 15%;
+text-align: center;
+}
+
 @keyframes ldio-03ryofceyk19 {
   0% { transform: rotate(0) }
   100% { transform: rotate(360deg) }

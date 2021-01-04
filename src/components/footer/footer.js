@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 import "./footer.css";
 import socData from "../../data/socialPage.json";
- class Footer extends Component {
-    render() {
+
+import { useTranslation } from 'react-i18next';
+
+const Footer=()=> {
+
+  const { t, i18n } = useTranslation(['footer']);
+
         return (
           
         <div className='navbar-nav navbar navbar-expand-lg navbar-darg bg-dark text-white mb-3 p-3 footMain'>
@@ -18,12 +23,12 @@ import socData from "../../data/socialPage.json";
             </a>
             </div>
            <div className="col-md-8 col-12 cred">
-            Created by : Salmanov Elvin 1457R
+            {t('cr')} Salmanov Elvin 1457R
            </div>
 
         </div>
             
         )
-    }
+    
 }
 export default Footer;
