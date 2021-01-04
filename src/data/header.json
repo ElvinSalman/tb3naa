@@ -14,7 +14,7 @@
   "ru":[
     { "title": "Главная", "to": "/", "type": "simple" },
     { "title": "Информация о ТВ3-117", "to": "/info", "type": "simple" },
-    { "title": "О Naa", "to": "/about", "type": "simple" },
+    { "title": "О НАА", "to": "/about", "type": "simple" },
     { "title": "Контакты", "to": "/contact", "type": "simple" }
   ]
 }
