@@ -14,6 +14,9 @@ margin-bottom: 40px;
     box-sizing: border-box;
     right: 25px;
 }
+.headMain{
+    margin-bottom:0 !important ;
+  }
 @media screen and (max-width:1000px){
     nav{
         position: sticky !important;
@@ -69,6 +72,12 @@ margin-bottom: 40px;
    }
     
 }
-.headMain{
-    margin-bottom:0 !important ;
-  }
+
+
+@media screen and (max-width:365px){
+    .img{
+        width: 150px !important;
+        left: 20px;
+        top: 25px;
+    }
+}

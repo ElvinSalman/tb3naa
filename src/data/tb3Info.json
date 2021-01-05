@@ -1,4 +1,4 @@
-[
+{"az":[
     { "title": "ТВ3-117ВМ müherrikin ümumi xarakteristikası", "to": "/info/char", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin əsas hissələrin qurğusu", "to": "/info/assembly", "type": "simple" },
     { "title": "ИВ-500 mühərrikin titrəmə nəzarəti sistemi", "to": "/info/vibr", "type": "simple" },
@@ -6,4 +6,23 @@
     { "title": "Mühərrikin buzlanma ələyhinə sistemi və ПЗУ", "to": "/info/antiIcing", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin yağ sistemi", "to": "/info/oil", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin yanacağla qidalanma və tənzimlənmə sistemi", "to": "/info/adj", "type": "simple" }
+  ],
+  "en":[
+    { "title": "General characteristics of TV3-117VM engine", "to": "/info/char", "type": "simple" },
+    { "title": "Installation of main parts of TV3-117ВМ engine", "to": "/info/assembly", "type": "simple" },
+    { "title": "IV-500 engine vibration control system", "to": "/info/vibr", "type": "simple" },
+    { "title": "Dust protection device (DPS)", "to": "/info/pzu", "type": "simple" },
+    { "title": "Engine anti-icing system and DPS", "to": "/info/antiIcing", "type": "simple" },
+    { "title": "TV3-117ВМ engine oil system", "to": "/info/oil", "type": "simple" },
+    { "title": "TV3-117ВМ engine fuel supply and control system", "to": "/info/adj", "type": "simple" }
+  ],
+  "ru":[
+    { "title": "Общие характеристики двигателя ТВ3-117ВМ", "to": "/info/char", "type": "simple" },
+    { "title": "Установка основных частей двигателя ТВ3-117ВМ", "to": "/info/assembly", "type": "simple" },
+    { "title": "Система контроля вибрации двигателя ИВ-500", "to": "/info/vibr", "type": "simple" },
+    { "title": "Устройство защиты от пыли (ПЗУ)", "to": "/info/pzu", "type": "simple" },
+    { "title": "Система антиобледенения двигателя и ПЗУ", "to": "/info/antiIcing", "type": "simple" },
+    { "title": "Масляная система двигателя ТВ3-117ВМ", "to": "/info/oil", "type": "simple" },
+    { "title": "Система подачи топлива и управления двигателем ТВ3-117ВМ", "to": "/info/adj", "type": "simple" }    
   ]
+}
