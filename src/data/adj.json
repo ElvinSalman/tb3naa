@@ -1,4 +1,5 @@
-[
+{
+  "az":[
     { "title": "Sistemin ümumi xarakteristikası", "to": "/info/adj/basicadj", "type": "simple" },
     { "title": "Yanacağın forsunkalara yolu", "to": "/info/adj/fuelbillets", "type": "simple" },
     { "title": "Əsas dozalaşdırıcı iynə", "to": "/info/adj/basicdosing", "type": "simple" },
@@ -9,6 +10,29 @@
     { "title": "Güc sinxronizatoru", "to": "/info/adj/synchronizer", "type": "simple" },
     { "title": "Mühərrikin temperaturun tənzimləyicisi", "to": "/info/adj/temperatureregulator", "type": "simple" },
     { "title": "Mühərrikin elektron tənzimləyicisi ЭРД-3ВМ", "to": "/info/adj/electronicregulator", "type": "simple" }
-
-
+  ],
+  "en":[
+    { "title": "General characteristics of the system", "to": "/info/adj/basicadj", "type": "simple" },
+    { "title": "The path of fuel to the injectors", "to": "/info/adj/fuelbillets", "type": "simple" },
+    { "title": "The main dosing needle", "to": "/info/adj/basicdosing", "type": "simple" },
+    { "title": "Turbocompressor speed regulator", "to": "/info/adj/turbocompadj", "type": "simple" },
+    { "title": "Free turbine speed regulator", "to": "/info/adj/freeturbospinadj", "type": "simple" },
+    { "title": "Joint work of regulators", "to": "/info/adj/regulators", "type": "simple" },
+    { "title": "Quick adaptation machine", "to": "/info/adj/adaptation", "type": "simple" },
+    { "title": "Power synchronizer", "to": "/info/adj/synchronizer", "type": "simple" },
+    { "title": "Engine temperature regulator", "to": "/info/adj/temperatureregulator", "type": "simple" },
+    { "title": "Electronic engine regulator ERD-3BM", "to": "/info/adj/electronicregulator", "type": "simple" }
+  ],
+  "ru":[
+    { "title": "Общие характеристики системы", "to": "/info/adj/basicadj", "type": "simple" },
+    { "title": "Путь топлива к форсункам", "to": "/info/adj/fuelbillets", "type": "simple" },
+    { "title": "Основная дозирующая игла", "to": "/info/adj/basicdosing", "type": "simple" },
+    { "title": "Регулятор скорости турбокомпрессора", "to": "/info/adj/turbocompadj", "type": "simple" },
+    { "title": "Регулятор скорости свободной турбины", "to": "/info/adj/freeturbospinadj", "type": "simple" },
+    { "title": "Совместная работа регуляторов", "to": "/info/adj/regulators", "type": "simple" },
+    { "title": "Машина быстрой адаптации", "to": "/info/adj/adaptation", "type": "simple" },
+    { "title": "Синхронизатор мощности", "to": "/info/adj/synchronizer", "type": "simple" },
+    { "title": "Регулятор температуры двигателя", "to": "/info/adj/temperatureregulator", "type": "simple" },
+    { "title": "Электронный регулятор двигателя ЭРД-3БМ", "to": "/info/adj/electronicregulator", "type": "simple" }
   ]
+}

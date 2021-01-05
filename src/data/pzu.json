@@ -1,6 +1,20 @@
-[
+{
+  "az":[
     { "title": "Təyinat və əsas məlumatlar", "to": "/info/pzu/appointmentandbasicinformation", "type": "simple" },
     { "title": "Əsas elementlər", "to": "/info/pzu/basicelements", "type": "simple" },
     { "title": "İş prinsipi", "to": "/info/pzu/work", "type": "simple" },
     { "title": "İstismar qaydaları", "to": "/info/pzu/operatingrules", "type": "simple" }
+  ],
+  "en":[
+    { "title": "Purpose and basic information", "to": "/info/pzu/appointmentandbasicinformation", "type": "simple" },
+    { "title": "The main elements", "to": "/info/pzu/basicelements", "type": "simple" },
+    { "title": "Work priciple", "to": "/info/pzu/work", "type": "simple" },
+    { "title": "Operating rules", "to": "/info/pzu/operatingrules", "type": "simple" }
+  ],
+  "ru":[
+    { "title": "Назначение и основная информация", "to": "/info/pzu/appointmentandbasicinformation", "type": "simple" },
+    { "title": "Основные элементы", "to": "/info/pzu/basicelements", "type": "simple" },
+    { "title": "Принцип работы", "to": "/info/pzu/work", "type": "simple" },
+    { "title": "Правила эксплуатации", "to": "/info/pzu/operatingrules", "type": "simple" }
   ]
+}

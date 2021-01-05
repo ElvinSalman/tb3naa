@@ -1,6 +1,17 @@
-[
+{
+  "az":[
     { "title": "Təyinat", "to": "/info/vibr/purpose", "type": "simple" },
     { "title": "Tərkib və işi", "to": "/info/vibr/contentandwork", "type": "simple" },
     { "title": "Sazlıq nəzarəti", "to": "/info/vibr/serviceability", "type": "simple" }
-
+  ],
+  "en":[
+    { "title": "Appointment", "to": "/info/vibr/purpose", "type": "simple" },
+    { "title": "Composition and work", "to": "/info/vibr/contentandwork", "type": "simple" },
+    { "title": "Swamp control", "to": "/info/vibr/serviceability", "type": "simple" }
+  ],
+  "ru":[
+    { "title": "Назначение", "to": "/info/vibr/purpose", "type": "simple" },
+    { "title": "Состав и работа", "to": "/info/vibr/contentandwork", "type": "simple" },
+    { "title": "Контроль соответствия", "to": "/info/vibr/serviceability", "type": "simple" }
   ]
+}

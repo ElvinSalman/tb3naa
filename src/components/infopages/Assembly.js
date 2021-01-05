@@ -3,20 +3,27 @@ import {Link} from 'react-router-dom';
 
 import infoAssem from "../../data/assembly.json";
 
+import { useTranslation } from 'react-i18next';
+
 import { Breadcrumb, BreadcrumbItem } from "../Breadcrumbs/Breadcrumbs";
 
-export default class Assembly extends Component {
-    render() {
+const Assembly=()=> {
+    const { t, i18n } = useTranslation(['']);
+    const lang=i18n.language;
+    let title=lang=="en"?"Installation of main parts of TV3-117ВМ engine":lang=="ru"?"Установка основных частей двигателя ТВ3-117ВМ":"ТВ3-117ВМ müherrikin əsas hissələrin qurğusu";
+    let info=lang=="en"?"TB3-117BM Engine Subtopics":lang=="ru"?"Подтемы двигателя TB3-117M":"TB3-117BM mühərrikinə aid altmövzular";
+    let home=lang=="en"?"Home":lang=="ru"?"Главная":"Ana səhifə";
         return (
             <>
-            <Breadcrumb title="ИВ-500 mühərrikin titrəmə nəzarəti sistemi">
-                    <BreadcrumbItem name="Ana səhifə" href="/" />
-                    <BreadcrumbItem name="ИВ-500 mühərrikin titrəmə nəzarəti sistemi" current />
+            <Breadcrumb title={title}>
+                    <BreadcrumbItem name={home} href="/" />
+                    <BreadcrumbItem name={info} href="/info" />
+                    <BreadcrumbItem name={title} current />
             </Breadcrumb>
             <div className="container list-group" style={{marginTop:50,marginBottom:200}}>
                 <div className="row d-flex justify-content-center">
                 <div className="col-10 col-md-6">
-                {infoAssem.map((item,index)=>(
+                {infoAssem[lang].map((item,index)=>(
                         <Link key={index} to={item.to} className="list-group-item list-group-item-action">{item.title}</Link>
                 ))}
                 </div>
@@ -24,5 +31,5 @@ export default class Assembly extends Component {
             </div>
 </>
         )
-    }
 }
+export default Assembly;
