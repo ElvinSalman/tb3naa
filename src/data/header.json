@@ -2,7 +2,7 @@
   "az":[
     { "title": "Ana səhifə", "to": "/", "type": "simple" },
     { "title": "ТВ3-117 məlumat", "to": "/info", "type": "simple" },
-    { "title": "Naa haqqında", "to": "/haqqimizda", "type": "simple" },
+    { "title": "Maa haqqında", "to": "/haqqimizda", "type": "simple" },
     { "title": "Əlaqə", "to": "/elaqe", "type": "simple" }
   ],
   "en":[
