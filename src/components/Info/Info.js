@@ -13,6 +13,7 @@ const Info=()=> {
     let title=lang=="en"?"TB3-117BM Engine Subtopics":lang=="ru"?"Подтемы двигателя TB3-117M":"TB3-117BM mühərrikinə aid altmövzular";
     let home=lang=="en"?"Home":lang=="ru"?"Главная":"Ana səhifə";
 
+
         return (
         
 <>
@@ -27,7 +28,7 @@ const Info=()=> {
             
             <div className="col-10 col-md-6">
             {tb[lang].map((item,index)=>(
-                        <Link key={index} to={item.to} className="list-group-item list-group-item-action">{item.title}</Link>
+                        <Link key={index} to={item.to} onClick={()=>{window.scrollTo(0, 0);}} className="list-group-item list-group-item-action">{item.title}</Link>
                 ))}
                 
   {/* <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a> */}

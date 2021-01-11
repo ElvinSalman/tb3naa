@@ -26,7 +26,7 @@ const Char=()=> {
                 <div className="row d-flex justify-content-center">
                 <div className="col-10 col-md-6">
                 {infoChar[lang].map((item,index)=>(
-                        <Link key={index} to={item.to} className="list-group-item list-group-item-action">{item.title}</Link>
+                        <Link key={index} to={item.to} onClick={()=>{window.scrollTo(0, 0);}} className="list-group-item list-group-item-action">{item.title}</Link>
                 ))}
                 </div>
                 </div>

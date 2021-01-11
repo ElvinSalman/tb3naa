@@ -43,16 +43,8 @@ const Navbar=(props)=>{
             <Link to='/' className='navbar-brand'>
                 <img className="img" src="https://naa.az/wp-content/uploads/26637838_1503945446356288_1034795990_n.png" width="200px" alt="Logo"/>
             </Link>
-{/* <h1>{t('title')}</h1> */}
+
             <Animation className="animation ml-auto" pose={open? 'open' : 'closed'}>
-            {/* <ul className='navbar-nav ml-auto ul'>       
-                <li className='nav-item active'> 
-                    <Link to='/' className='nav-link'>Home</Link>
-                </li>
-                <li className='nav-item active'> 
-                    <Link to='/users' className='nav-link'>Users</Link>
-                </li>
-            </ul> */}
             <ul className='navbar-nav ml-auto ul'>
                 {headerLinks[lang].map((item,index)=>(
                     <li className='nav-item active' onClick={NavClick} key={index}>
@@ -73,17 +65,20 @@ const Navbar=(props)=>{
           defaultValue ={lang.toUpperCase()}
           onChange={(item)=>{
           let val=item.value;
-          i18n.changeLanguage(val);  
-        //   let number = 0;
-        //         headerLinks[lang].map((item, index) => {
-        //           if (window.location.pathname.substr(3) !== '' && item.to ==
-        //             window.location.pathname.substr(3)
-        //           ) {
-        //             number = index;
-        //           }
-        //         })
-        //         window.location.pathname = val + headerLinks[val][number].to;
-        //   window.location.pathname = i18n.language;
+        //   i18n.changeLanguage(val);  
+        // console.log(window.location.pathname.substr(0));
+          let number = 0;
+                headerLinks[val].map((item, index) => {
+                  if (window.location.pathname.substr(0) !== '/' && item.to ==
+                    window.location.pathname.substr(0) || window.location.pathname.substr(3) !== '/' && item.to ==
+                    window.location.pathname.substr(3)) {
+                    number = index;
+                  }
+                })
+                window.location.pathname = val + headerLinks[val][number].to;
+
+
+          // window.location.pathname = i18n.language;
         }} options={optionsLang} /> 
 
         <span  className='span-ham'>

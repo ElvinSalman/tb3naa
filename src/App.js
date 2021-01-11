@@ -57,12 +57,17 @@ import ElecReg from './components/Adj/ElecReg';
 
 import { useTranslation } from "react-i18next";
 
-function App() {
-  const { i18n } = useTranslation()
 
+import tb3info from "./data/tb3Info.json"
+
+function App() {
+  const { i18n,t } = useTranslation();
+
+  let lang = i18n.language;
   return (
-    <BrowserRouter basename={i18n.language}>
+   
     <Router>
+       <BrowserRouter basename={i18n.language}>
     <div className="App">
     <Layout>
 
@@ -134,9 +139,9 @@ function App() {
     </Switch>
      </Layout> 
     </div>
-   
-    </Router>
     </BrowserRouter>
+    </Router>
+   
   );
 }
 
