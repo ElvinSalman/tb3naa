@@ -14,6 +14,7 @@ import AntiIce from './components/infopages/AntiIce';
 import Oil from './components/infopages/Oil';
 import Adjustment from './components/infopages/Adjustment';
 import Layout from "./components/layout/layout"
+import ErrorPage from "./components/Error/Error";
 
 import Common from './components/char/Common';
 import Tech from './components/char/Tech';
@@ -57,8 +58,15 @@ import ElecReg from './components/Adj/ElecReg';
 
 import { useTranslation } from "react-i18next";
 
+import headerJson from "./data/header.json";
+import tb3info from "./data/tb3Info.json";
+import charJson from "./data/char.json";
+import assemblyJson from "./data/assembly.json";
+import vibrJson from "./data/vibr.json";
+import pzuJson from "./data/pzu.json";
+import oilJson from "./data/oil.json";
+import adjJson from "./data/adj.json";
 
-import tb3info from "./data/tb3Info.json"
 
 function App() {
   const { i18n,t } = useTranslation();
@@ -73,69 +81,67 @@ function App() {
 
     <Switch>
     <Route exact path='/' component={HomePage}/>
-    <Route exact path='/about' component={About}/>
     <Route exact path='/info' component={Info}/>
-    <Route exact path='/contact' component={Contact}/>
+    <Route exact path={headerJson[lang][2].to} component={About}/>
+    <Route exact path={headerJson[lang][3].to} component={Contact}/>
 
 
-    <Route exact path='/info/char' component={Char}/>
-    <Route exact path='/info/assembly' component={Assembly}/>
-    <Route exact path='/info/vibr' component={Vibr}/>
-    <Route exact path='/info/pzu' component={Pzu}/>
-    <Route exact path='/info/antiIcing' component={AntiIce}/>
-    <Route exact path='/info/oil' component={Oil}/>
-    <Route exact path='/info/adj' component={Adjustment}/>
+    <Route exact path={tb3info[lang][0].to} component={Char}/>
+    <Route exact path={tb3info[lang][1].to} component={Assembly}/>
+    <Route exact path={tb3info[lang][2].to} component={Vibr}/>
+    <Route exact path={tb3info[lang][3].to} component={Pzu}/>
+    <Route exact path={tb3info[lang][4].to} component={AntiIce}/>
+    <Route exact path={tb3info[lang][5].to} component={Oil}/>
+    <Route exact path={tb3info[lang][6].to} component={Adjustment}/>
 
 
-    <Route exact path='/info/char/common' component={Common}/>
-    <Route exact path='/info/char/tech' component={Tech}/>
-    <Route exact path='/info/char/limit' component={Limit}/>
-    <Route exact path='/info/char/engine' component={Engine}/>
+    <Route exact path={charJson[lang][0].to} component={Common}/>
+    <Route exact path={charJson[lang][1].to} component={Tech}/>
+    <Route exact path={charJson[lang][2].to} component={Limit}/>
+    <Route exact path={charJson[lang][3].to} component={Engine}/>
 
 
-    <Route exact path='/info/assembly/compressor' component={Compressor}/>
-    <Route exact path='/info/assembly/fire' component={Fire}/>
-    <Route exact path='/info/assembly/comprturb' component={ComprTurb}/>
-    <Route exact path='/info/assembly/freeturb' component={FreeTurb}/>
-    <Route exact path='/info/assembly/freed' component={Freed}/>
-    <Route exact path='/info/assembly/revenge' component={Revenge}/>
-    <Route exact path='/info/assembly/box' component={Box}/>
-    <Route exact path='/info/assembly/airstarter' component={AirStarter}/>
+    <Route exact path={assemblyJson[lang][0].to} component={Compressor}/>
+    <Route exact path={assemblyJson[lang][1].to} component={Fire}/>
+    <Route exact path={assemblyJson[lang][2].to} component={ComprTurb}/>
+    <Route exact path={assemblyJson[lang][3].to} component={FreeTurb}/>
+    <Route exact path={assemblyJson[lang][4].to} component={Freed}/>
+    <Route exact path={assemblyJson[lang][5].to} component={Revenge}/>
+    <Route exact path={assemblyJson[lang][6].to} component={Box}/>
+    <Route exact path={assemblyJson[lang][7].to} component={AirStarter}/>
 
 
-    <Route exact path='/info/vibr/purpose' component={Purpose}/>
-    <Route exact path='/info/vibr/contentandwork' component={ContentAndWork}/>
-    <Route exact path='/info/vibr/serviceability' component={Serviceability}/>
+    <Route exact path={vibrJson[lang][0].to} component={Purpose}/>
+    <Route exact path={vibrJson[lang][1].to} component={ContentAndWork}/>
+    <Route exact path={vibrJson[lang][2].to} component={Serviceability}/>
 
 
-    <Route exact path='/info/pzu/appointmentandbasicinformation' component={Appointment}/>
-    <Route exact path='/info/pzu/basicelements' component={Basic}/>
-    <Route exact path='/info/pzu/work' component={Work}/>
-    <Route exact path='/info/pzu/operatingrules' component={Operating}/>
+    <Route exact path={pzuJson[lang][0].to} component={Appointment}/>
+    <Route exact path={pzuJson[lang][1].to} component={Basic}/>
+    <Route exact path={pzuJson[lang][2].to} component={Work}/>
+    <Route exact path={pzuJson[lang][3].to} component={Operating}/>
 
 
 
-    <Route exact path='/info/oil/basicoil' component={BasicOil}/>
-    <Route exact path='/info/oil/basicelements' component={BasicElements}/>
-    <Route exact path='/info/oil/worksystem' component={WorkSystem}/>
-    <Route exact path='/info/oil/controloveroperation' component={Control}/>
-    <Route exact path='/info/oil/malfunctionsofthesystem' component={Malfunction}/>
+    <Route exact path={oilJson[lang][0].to} component={BasicOil}/>
+    <Route exact path={oilJson[lang][1].to} component={BasicElements}/>
+    <Route exact path={oilJson[lang][2].to} component={WorkSystem}/>
+    <Route exact path={oilJson[lang][3].to} component={Control}/>
+    <Route exact path={oilJson[lang][4].to} component={Malfunction}/>
 
 
-    <Route exact path='/info/adj/basicadj' component={BasicAdj}/>
-    <Route exact path='/info/adj/fuelbillets' component={FuelBillets}/>
-    <Route exact path='/info/adj/basicdosing' component={BasicDosing}/>
-    <Route exact path='/info/adj/turbocompadj' component={TurboCompAdj}/>
-    <Route exact path='/info/adj/freeturbospinadj' component={FreeTurboSpin}/>
-    <Route exact path='/info/adj/regulators' component={Regulators}/>
-    <Route exact path='/info/adj/adaptation' component={Adaptation}/>
-    <Route exact path='/info/adj/synchronizer' component={Synch}/>
-    <Route exact path='/info/adj/temperatureregulator' component={TempReg}/>
-    <Route exact path='/info/adj/electronicregulator' component={ElecReg}/>
+    <Route exact path={adjJson[lang][0].to} component={BasicAdj}/>
+    <Route exact path={adjJson[lang][1].to} component={FuelBillets}/>
+    <Route exact path={adjJson[lang][2].to} component={BasicDosing}/>
+    <Route exact path={adjJson[lang][3].to} component={TurboCompAdj}/>
+    <Route exact path={adjJson[lang][4].to} component={FreeTurboSpin}/>
+    <Route exact path={adjJson[lang][5].to} component={Regulators}/>
+    <Route exact path={adjJson[lang][6].to} component={Adaptation}/>
+    <Route exact path={adjJson[lang][7].to} component={Synch}/>
+    <Route exact path={adjJson[lang][8].to} component={TempReg}/>
+    <Route exact path={adjJson[lang][9].to} component={ElecReg}/>
 
-    <Route render={()=>(
-      <div>Error</div>
-    )}/>
+    <Route component={ErrorPage}/>
     </Switch>
      </Layout> 
     </div>

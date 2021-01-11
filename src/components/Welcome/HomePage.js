@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next';
         <div className="container" style={{marginBottom:100,marginTop:50}}>
             <div className="row">
             <div className="col-12" style={{textAlign:"center",margin:"30px 0"}}>
-              <h1>{t('title')} </h1>
+              <h2>{t('title')} </h2>
             </div>
                 <div className="col-12 d-flex justify-content-center" style={{textAlign:"center"}}>
                    <Slider2/>
