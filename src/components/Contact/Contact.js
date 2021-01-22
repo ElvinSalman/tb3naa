@@ -36,6 +36,7 @@ import { useTranslation } from 'react-i18next';
 {t('adres')}
 </span>
 </div>
+
 <div style={{marginTop:50,marginBottom:50,position:"relative",height:400}} className="col-12 col-md-12 map text-center">
     {/* <h2>Saytı yazan tələbə haqqında məlumat</h2> */}
 
