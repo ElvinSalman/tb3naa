@@ -16,6 +16,7 @@ ReactDOM.render(
     <I18nextProvider i18n={i18n}>
     <Suspense fallback={<div><Loading/></div>}> 
     <App />
+    {/* <Loading/> */}
     </Suspense>
     </I18nextProvider>
   </AppProvider>,
