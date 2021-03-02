@@ -2,7 +2,7 @@
   "az":[
     { "title": "Kompressor", "to": "/info/esashisselerinqurgusu/kompressor", "type": "simple" },
     { "title": "Yanma kamerası", "to": "/info/esashisselerinqurgusu/yanmakamerasi", "type": "simple" },
-    { "title": "Kompressorun turbini", "to": "/info/esashisselerinqurgusu/kompressorunturbini", "type": "simple" },
+    { "title": "Turbokompressor", "to": "/info/esashisselerinqurgusu/kompressorunturbini", "type": "simple" },
     { "title": "Sərbəst turbin", "to": "/info/esashisselerinqurgusu/serbestturbin", "type": "simple" },
     { "title": "Xaric olma qurğusu", "to": "/info/esashisselerinqurgusu/xaricolmaqurgusu", "type": "simple" },
     { "title": "Sərbəst turbinin firlanma tezliyi tənzimləyicisinin intiqalı", "to": "/info/esashisselerinqurgusu/firlanmatezliyi", "type": "simple" },
@@ -22,7 +22,7 @@
   "ru":[
     { "title": "Компрессор", "to": "/info/ustanovkaosnovnixcastey/kompressor", "type": "simple" },
     { "title": "Камера сгорания", "to": "/info/ustanovkaosnovnixcastey/kamerasqoraniya", "type": "simple" },
-    { "title": "Компрессор турбина", "to": "/info/ustanovkaosnovnixcastey/kompturbina", "type": "simple" },
+    { "title": "Турбокомпрессор", "to": "/info/ustanovkaosnovnixcastey/kompturbina", "type": "simple" },
     { "title": "Свободная турбина", "to": "/info/ustanovkaosnovnixcastey/svobodnayaturbina", "type": "simple" },
     { "title": "Разрядное устройство", "to": "/info/ustanovkaosnovnixcastey/razradnoyeustroystvo", "type": "simple" },
     { "title": "Коробка передач регулятора оборотов свободной турбины", "to": "/info/ustanovkaosnovnixcastey/korobkaperedacoborotov", "type": "simple" },
