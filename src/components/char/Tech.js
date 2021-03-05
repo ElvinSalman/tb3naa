@@ -38,25 +38,25 @@ const Tech=()=>{
 <tr>
 <td><b>Мощность на чрезвычайном режиме:</b>
 </td>
-<td>2200 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-h0_13-0" className="reference"><a href="#cite_note-h0-13">&#91;13&#93;</a></sup>
+<td>2200 л.с.
 </td>
-<td>2400 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-h0_13-1" className="reference"><a href="#cite_note-h0-13">&#91;13&#93;</a></sup>
+<td>2400 л.с.
 </td>
-<td>2800 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-:0_14-0" className="reference"><a href="#cite_note-:0-14">&#91;14&#93;</a></sup>
+<td>2800 л.с.
 </td>
 </tr>
 <tr>
 <td><b>Мощность на взлётном режиме:</b>
 </td>
-<td>2000 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-h0_13-2" className="reference"><a href="#cite_note-h0-13">&#91;13&#93;</a></sup>
+<td>2000 л.с.
 </td>
-<td>2200 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-h0_13-3" className="reference"><a href="#cite_note-h0-13">&#91;13&#93;</a></sup>
+<td>2200 л.с.
 </td>
-<td>2500 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-:0_14-1" className="reference"><a href="#cite_note-:0-14">&#91;14&#93;</a></sup>
+<td>2500 л.с.
 </td>
 </tr>
 <tr>
-<td><b>Удельный расход топлива:<sup id="cite_ref-17" className="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup></b>
+<td><b>Удельный расход топлива:</b>
 </td>
 <td>0,220 кг/л.с·час
 </td>
@@ -68,15 +68,15 @@ const Tech=()=>{
 <tr>
 <td><b>Мощность на крейсерском режиме:</b>
 </td>
-<td colSpan="2" align="center">1500 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-h0_13-4" className="reference"><a href="#cite_note-h0-13">&#91;13&#93;</a></sup>
+<td colSpan="2" align="center">1500 л.с.
 </td>
-<td>1750 <a href="/wiki/%D0%9B%D0%BE%D1%88%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D0%BB%D0%B0" title="Лошадиная сила">л.&#160;с.</a><sup id="cite_ref-:0_14-2" className="reference"><a href="#cite_note-:0-14">&#91;14&#93;</a></sup>
+<td>1750 л.с.
 </td>
 </tr>
 <tr>
 <td><b>Длина:</b>
 </td>
-<td colSpan="5" align="center">2055 <a href="/wiki/%D0%9C%D0%BC" className="mw-redirect" title="Мм">мм</a>
+<td colSpan="5" align="center">2055 мм
 </td></tr>
 <tr>
 <td><b>Ширина:</b>
@@ -91,7 +91,7 @@ const Tech=()=>{
 <tr>
 <td><b>Сухая масса:</b>
 </td>
-<td colSpan="3" align="center">295 <a href="/wiki/%D0%9A%D0%B3" className="mw-redirect" title="Кг">кг</a>
+<td colSpan="3" align="center">295 кг
 </td>
 </tr>
 <tr>
