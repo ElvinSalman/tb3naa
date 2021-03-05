@@ -47,11 +47,13 @@ const About=()=> {
 {t('content5')}
 </p>
 <br/>
+
 <div className="col-12" style={{textAlign:"center",marginBottom:30}}>
 <h2>
 {t('boss')}
 </h2>
 </div>
+<hr/>
 <br/>
 <div className="col-12" style={{marginBottom:30}}>
 
