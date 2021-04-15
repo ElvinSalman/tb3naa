@@ -101,6 +101,9 @@ const Tech=()=>{
 </td>
 </tr></tbody></table>
 
+<div className="forVideo" style={{textAlign:"center",width:"100vw",height:"75vh",marginBottom:"10px"}}>
+<iframe width="70%" height="100%" src="https://www.youtube.com/embed/emnSzTUQQwI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
             </div>
         )
     }

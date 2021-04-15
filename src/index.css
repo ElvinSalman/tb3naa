@@ -16,4 +16,8 @@ code {
 *{
   font-family: 'Roboto', sans-serif;
 }
-
+@media screen and (max-width:570px){
+.forVideo{
+height: 45vh !important;
+}
+}
