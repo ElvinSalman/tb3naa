@@ -22,7 +22,7 @@ const Limit=()=> {
                     <BreadcrumbItem name={title} current />
                 </Breadcrumb>
                 
-                <div className="forVideo" style={{textAlign:"center",width:"100vw",height:"75vh",marginBottom:"10px"}}>
+                <div className="forVideo" style={{textAlign:"center",width:"100%",height:"75vh",marginBottom:"10px"}}>
                 <iframe width="70%" height="100%" src="https://www.youtube.com/embed/3GD5CASuVjI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             </div>
