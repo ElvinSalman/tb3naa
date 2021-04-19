@@ -14,20 +14,16 @@ const AntiIce=()=>{
     let home=lang=="en"?"Home":lang=="ru"?"Главная":"Ana səhifə";
 
         return (
-            <>
+            <div>
             <Breadcrumb title={title}>
                     <BreadcrumbItem name={home} href="/" />
                     <BreadcrumbItem name={info} href="/info" />
                     <BreadcrumbItem name={title} current />
             </Breadcrumb>
-            <div className="container list-group" style={{marginTop:50,marginBottom:400}}>
-                <div className="row d-flex justify-content-center">
-                <div className="col-10 col-md-6">
-               Information
-                </div>
-                </div>
+            <div className="forVideo" style={{textAlign:"center",width:"100%",height:"75vh",marginBottom:"10px"}}>
+            <iframe width="70%" height="100%" src="https://www.youtube.com/embed/-VJUqd4SZwI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
-</>
+            </div>
         )
 }
 export default AntiIce;

@@ -19,6 +19,9 @@ const Operating=()=> {
                     <BreadcrumbItem name={info2} href="/info/pzu" />
                     <BreadcrumbItem name={title} current />
                 </Breadcrumb>
+                <div className="forVideo" style={{textAlign:"center",width:"100%",height:"75vh",marginBottom:"10px"}}>
+                <iframe width="70%" height="100%" src="https://www.youtube.com/embed/Fp_bS6b9pi0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         )
 }
