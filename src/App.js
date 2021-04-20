@@ -136,10 +136,10 @@ function App() {
     <Route exact path={adjJson[lang][3].to} component={TurboCompAdj}/>
     <Route exact path={adjJson[lang][4].to} component={FreeTurboSpin}/>
     <Route exact path={adjJson[lang][5].to} component={Regulators}/>
-    <Route exact path={adjJson[lang][6].to} component={Adaptation}/>
-    <Route exact path={adjJson[lang][7].to} component={Synch}/>
-    <Route exact path={adjJson[lang][8].to} component={TempReg}/>
-    <Route exact path={adjJson[lang][9].to} component={ElecReg}/>
+    {/* <Route exact path={adjJson[lang][6].to} component={Adaptation}/> */}
+    <Route exact path={adjJson[lang][6].to} component={Synch}/>
+    {/* <Route exact path={adjJson[lang][8].to} component={TempReg}/> */}
+    {/* <Route exact path={adjJson[lang][9].to} component={ElecReg}/> */}
 
     <Route component={ErrorPage}/>
     </Switch>

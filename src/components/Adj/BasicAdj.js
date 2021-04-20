@@ -20,6 +20,9 @@ const BasicAdj=()=> {
                     <BreadcrumbItem name={info2} href={adres} />
                     <BreadcrumbItem name={title} current />
                 </Breadcrumb>
+                <div className="forVideo" style={{textAlign:"center",width:"100%",height:"75vh",marginBottom:"10px"}}>
+                <iframe width="70%" height="100%" src="https://www.youtube.com/embed/aqL1Fu0mOgQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         )
 }
