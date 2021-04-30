@@ -50,7 +50,7 @@ const Common =()=> {
 </p>
     </div>
     <div className="col-12 col-md-6">
-    <img src="http://www.hups.mil.gov.ua/assets/uploads/2016/01/dvigun-TB3-117BM-hups_01.jpg" alt="photo-1" width="100%" />
+    <img src="http://авиару.рф/wp-content/uploads/2016/01/11.Dvigatel-TV3-117-v-razreze..jpg" alt="photo-1" width="100%" />
     </div>
 </div>
 <br/>
