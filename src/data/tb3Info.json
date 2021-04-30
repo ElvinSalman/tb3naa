@@ -2,8 +2,8 @@
     { "title": "ТВ3-117ВМ müherrikin ümumi xarakteristikası", "to": "/info/xarakteristika", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin əsas hissələrin qurğusu", "to": "/info/esashisselerinqurgusu", "type": "simple" },
     { "title": "ИВ-500 mühərrikin titrəmə nəzarəti sistemi", "to": "/info/vibrasiya", "type": "simple" },
-    { "title": "Tozqoruyucu qurğu(ПЗУ)", "to": "/info/pzu", "type": "simple" },
-    { "title": "Mühərrikin buzlanma ələyhinə sistemi və ПЗУ", "to": "/info/buzlamaeleyhi", "type": "simple" },
+    { "title": "Tozqoruyucu qurğu(TQQ)", "to": "/info/pzu", "type": "simple" },
+    { "title": "Mühərrikin buzlanma ələyhinə sistemi və TQQ", "to": "/info/buzlamaeleyhi", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin yağ sistemi", "to": "/info/yaglama", "type": "simple" },
     { "title": "ТВ3-117ВМ müherrikin yanacağla qidalanma və tənzimlənmə sistemi", "to": "/info/yanacaglaqidalanmavetenzimlenme", "type": "simple" }
   ],
